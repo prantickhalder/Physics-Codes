@@ -122,7 +122,7 @@ program kawasaki
                 energy_sum = energy_sum + energy
                 energy2_sum = energy2_sum + energy**2
 
-                ! Storeing magnetization vs step
+                ! Storing magnetization vs step
                 write(unit_step_file, '(I10, F14.8)') step, magnetization / (L*L)
             end if
         end do
